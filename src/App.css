@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.newsAIHeading{
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  color: #111;
+  padding-top: 3%;
+}
+
+.eachCard{
+  position: relative;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all ease-out 0.1s;
+  cursor: pointer;
+}
+.eachCard:hover{
+  scale: 1.04;
+}
+
+.card-text:last-child {
+  position: absolute;
+  bottom: 9%;
+  width: 100%;
+}
+
+.authorName{
+  background-color:#E5A347 ;
+  color: #111;
+  padding: 0.5% 0.5%;
+}
+
+.readMoreBtnDesign{
+  position: relative;
+  overflow: hidden;
+}
+.readMoreBtnDesign::after{
+  content: "";
+  background-color: white;
+  opacity: 0.2;
+  position: absolute;
+  width: 20%;
+  height: 50%;
+  left: 30%;
+  bottom: -2%;
+  border-radius: 20px;
+  animation: readmorelarge 1s ease-out infinite  ;
+}
+
+@keyframes readmorelarge {
+  0%{
+    scale: 0;
+  }
+  100%{
+    scale: 6;
+  }
+}
+
+.css-1wnsr1i{
+  border-radius: 10px;
+  width: 80% !important;
+  height: 92vh !important;
+  border: none;
+}
+.loadingImageDiv{
+  text-align: center;
+  padding: 5%;
+}
+.loadingImageDiv img{
+  width: 5%;
+}

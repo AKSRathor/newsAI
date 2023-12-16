@@ -1,0 +1,167 @@
+.navContainerLayer1 {
+    display: flex;
+}
+
+#navbar {
+    background-color: #292524;
+}
+
+.navbar {
+    width: 100%;
+    /* padding: 2%; */
+
+}
+
+.middleNavUpperText ul {
+    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 0.9em;
+    align-items: center;
+    height: 100%;
+}
+
+.leftSideLogo {
+    width: 33%;
+    padding-left: 7%;
+    font-weight: bold;
+    font-size: 2em;
+    color: #E4A348;
+}
+
+.middleNavUpperText {
+    background: url('./stock/newsUpperLayer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33%;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.rightSideTextUpperNav {
+    color: #D3CBB8;
+    width: 33%;
+}
+
+.middleNavUpperText ul li {
+    padding: 0% 4%;
+}
+
+.rightSideTextUpperNav ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightSideTextUpperNav ul li {
+    padding: 2%;
+    font-weight: 500;
+}
+
+li {
+    list-style: none;
+}
+
+.navContainerLayer2 {
+    width: 100%;
+    display: flex;
+    padding-top: 2%;
+}
+
+
+.searchBoxNav {
+    display: flex;
+    max-width: 230px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    background: #E5A347;
+    border-radius: 50px;
+    /* margin: 5%; */
+    position: relative;
+}
+
+.searchButton {
+    color: white;
+    position: absolute;
+    right: 3px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #292524;
+    border: 0;
+    display: inline-block;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.searchInputNav {
+    border: none;
+    background: none;
+    outline: none;
+    color: #12110f;
+    font-size: 15px;
+    padding: 10px 0px 11px 13px;
+}
+
+.searchInputNav::placeholder {
+    color: #292524;
+
+}
+
+.searchInputNavBottomLayer {
+    padding-left: 5%;
+    width: 30%;
+}
+
+.navAllContents ul {
+    border-radius: 63px;
+    background: #E2A348;
+    display: flex;
+    justify-content: center;
+    height: 72%;
+    padding-left: 0;
+    width: 100%;
+}
+
+.navAllContents {
+    width: 41%;
+    display: flex;
+}
+
+.navShowMoreInsideDiv button {
+    width: 57%;
+    border: 2px solid #E2A348;
+    border-radius: 30px;
+    color: white;
+}
+
+.navShowMoreInsideDiv {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+}
+
+.navShowMore {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.showMoreNavIcons {
+    margin: 0% 8%;
+    font-size: 0.8em;
+}
+
+.navAllContents ul a {
+    color: #111;
+    text-decoration:none;
+
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
